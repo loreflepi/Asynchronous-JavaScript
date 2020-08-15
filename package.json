@@ -4,8 +4,9 @@
   "description": "Trabajar en asincronismo",
   "main": "index.js",
   "scripts": {
-    "callback": "node callback.js",
-    "callback2": "node proyectoCB.js"
+    "callback": "node src/callbacks/callback.js",
+    "callback2": "node src/callbacks/proyectoCB.js",
+    "promise": "node src/promises/proyectoP.js"
   },
   "keywords": [
     "promise",
